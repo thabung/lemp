@@ -8,5 +8,5 @@ echo "deb http://ppa.launchpad.net/nginx/stable/ubuntu $(lsb_release -sc) main" 
 sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys C300EE8C
 sudo apt-get update
 sudo apt-get install nginx
-## install nginx
+## install php fpm
 sudo apt-get install php5-fpm
